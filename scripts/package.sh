@@ -33,7 +33,7 @@ git config push.default "current"
 mv $YOLO_BIN_DIR/yolo phar/yolo-nightly.phar
 chmod -x phar/yolo-nightly.phar
 
-md5sum phar/yolo-nightly.phar > phar/yolo-nightly.phar.md5
+md5sum phar/yolo-nightly.phar | awk '{print $1}' > phar/yolo-nightly.phar.md5
 
 git add phar/yolo-nightly.phar
 git add phar/yolo-nightly.phar.md5
