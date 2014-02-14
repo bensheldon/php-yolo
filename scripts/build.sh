@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# called by Travis CI
-
 set -ex
 
 YOLO_BIN_DIR=${YOLO_BIN_DIR-builds}

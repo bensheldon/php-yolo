@@ -8,9 +8,9 @@ env:
   global:
     - YOLO_BIN_DIR=/tmp/yolo-phar
 
-before_script: ./ci/prepare.sh && ./ci/build.sh
+before_script: ./scripts/prepare.sh && ./scripts/build.sh
 
-script: ./ci/test.sh
+script: ./scripts/test.sh
 
 notifications:
   email:
