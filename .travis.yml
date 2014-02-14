@@ -7,10 +7,44 @@ php:
 env:
   global:
     - YOLO_BIN_DIR=/tmp/yolo-phar
+    # See scripts/generate-key-mac.sh
+    - secure: "QilbNc1cVHQKdK/D66F61s557gn6XnSBBEvzNiVatRoof6WVb7XTpIJmy7Z3ZkCtAbhdw+HiL/qAC7TGA4/m3EWQfAd5sXR18AKVu1RU/Mbqmtrq/XeW7tp1nKhiW9ZCpxRX2Aui2H6aX3IC6skHXoYgiLzHAHOaOolQ7aLvf/8="
+    - secure: "MoBrBk+MrUQsNIFy/3/p2F/jO9j7Oaz9IvFJ8i7zYu5dBbr5rq1KhK3sMqRp6vPkw7dSpdpiD0/agpdJI7QKQEgkhSjjy4+DMuf2TIlU8laZ0BRVrjmOfdOR5mMni1GHAUfZxEgFY/RSZr/ufUwTRam0Qf1Q0WJs6dOrtu7lI18="
+    - secure: "WGdQD616/QnL248RnJhftu6SqAS1g6qYvZjuXuXVrztRTGhWT5MpgOZguq0wh8PE+yvjccXxy5BdSoSZMewo+Q6SfnPbhlAi4moTBuknjYee5RdjGerk6oYKmkUnX4T7x+oV3aTdQavVLxPT4xNtf9c0vlUGu1armm7XOiFMaWI="
+    - secure: "RVOrEwLvq1O3HwzmN01956jzbdMDk0hZqLlRSa2F6tZQ92J/khN2u4BQiWZ39csbDJPm6B7i8RKJvrXIIm7/eBjU7Tk+ebOmzGyn5aC++ZvyOv1iRQNUGY5ECdYybgZHrYThtphIAGx+AQ9CkKLBxFNcIwH9eLzddfX97mETszg="
+    - secure: "MSwU9Th1cPkT9OVed0lv6aCh3l89X9xp23YgC5xoPcwK1pOIf3D0UTjMxGVHgII9DQILAEzvXE09O3wYBnRNmKqql46BJlKrqcI9w/vmljN+2REfThyb+rZLs8eiJeEhytQoDINGbNdFUne/JKoXqMshlD6Mfk1olvBYvquKAzQ="
+    - secure: "bEspp+IFeXf/onWTh94Y1jPQg6l6EpkaB/tvO3qXMLyK+z2VR3/gtRLHqIhWiY8+gObocoa6OEbAfNbR2y8wF6Cm+EJgNtcU7z1ErPJwXr7BlZ7CAtWINkc0zySipjRnm5xhIfor4zW2tuETf9LqO8Q2CG5RYTLhEJXwaO/aJk4="
+    - secure: "b8hctwDSKaB1SZl3/QOAXIDZ+VvCfeGJK+/LvR42YQOn9gz9ay0Dg4pXqgwjO2+sraL9BMpjlmVdFDvx/n5hX6UtA4A0YF1vh3bgdei3cfD930emoSaXrB4BE45egMHM3tEl2vnLF8TM7w1YkJeKygO8WoVObY3Z16+9CA88//0="
+    - secure: "m6KNIqvwygD5ghdfx+dSlCVxY4D2jGMXin+eee/BX+2HKMeNBIovMLIMSMAdlnBTZ09vaXzLvUBNwnyIr48HkC/Y4ccYEPCFkiep0w60rqbA3A+UzMCQ+Rm76K4+jxGgM25WBOceJ2q94JNvgWrBJGNTT3Rls8iQw4vO7SEdiDY="
+    - secure: "bXzH62AANUOwvn66h4XVG+/8zIRoOAD/1pJ6+t13DexlR7xfXOVcdkH6m55JNQfi5GWUuqJAyj7H2FUDAd4SC+2Lb7FPKdWvzysS1vJjyQg32yxdYvFByW6Irea9eeord227e+1Jdfkcf94YnxarJecIaghJzoESgsvYbm6jLd0="
+    - secure: "fofwzTTZLSxJ7EgQ1bsg9KFpewrYUCPnzpu07FIkwR1evNQgEIo+Zk7S+Xj3yJjpolPdBDzP2di7if1Yk/ZwobczVAGQIakvLqRrFk28z9qUbX9+0LOWvTDfFeTWvP7PhxrtJiM/zqQ4yxjIhe+t/DyK2v0AIwWD57qTWDx1eDQ="
+    - secure: "LWmTY4WA++VzMfFrWGTbXTV9s/nHtQl7ol3IJfzPxRwzL/SsmI965t/xBs0ck9UKyeHSd/DYYkxrikH6vkHwIy132sX3b1i2aBANpkGKEyaVt6Wgfyy1Po1FNHMrVUXlZ7A7Fq1kYG4hgE60NwrvKo41qY3T5j6xH9BUsv/u2ow="
+    - secure: "gqgb6Um987MIUhKg6n3j24YACFMdNDc88SIL2jxCiCMnjRzQw34sNCA5mcc15JCq9JlEiei/SaPaeFTXUpT6+RpXLok/F2mJP/fKuKXADRiXFW33nMXU4RZC5yQppTWhxKJCh1P6kFWQ1c/3yPzdXRkhV33wsBdBvvWgGKIuryU="
+    - secure: "bXK6KlYdIymE08mcB0k9g4+ubGPIX0tVD/zqK3FXf4qs5d65pRZLvyzTXlhHmDFCmg+Z1tUoBbCH84aKyvS0etM4GEh2N9VNBy+GNG4ZJSSqJynbn/ncoW/rV666X1vF9HVxSLT9DkO+/5bqZ1jG46hG+WQazoUZ0P5riTnsywc="
+    - secure: "fcvSsiWhrWbxieVX2N5/LXDvbcArhaZlzsA0AxI7a9xrq1cuREDtDHNcDjAAi7HWCpaakoEafArS2IL88pkgZQN9PkJ8w0U1nzFTYHiujmmNUO1foR1NuLKEahsr6zdgr5VDuUJ22CFrKlN/f3qUrGqCWEgBUlkkMak9Vn1XSj0="
+    - secure: "A/B4GmjNRQ7qj3jU2Vjb+JJ5+1iKyOEbOzb6Lsqz11mlyoTTell8BYxWPAX5xKNogV6mbeDAftfVwx1mIpQtCsdz390qv5XjMvk9J7wg3c5qXam8tn5bwDxl5D7u6UP0yKQCd7CpG+ztd5175fP6cu4aZKBPFPIXQOhkycXbSl4="
+    - secure: "VhSmzapfb+WwkxKmpInaup3E22EhQWeUEN3YaIE4YQBe9LBeGg7Ae72sOCGVs6nS0/RIonxI5tHTbHSRXbPEX2o1z5aE2mfnWvT90HYLihoLeCfu7zXcbj5nl/7N44DHePMe0JCntRMqUucBPJ5m5nMNaRwIFgnmAg85Ywwj/cQ="
+    - secure: "MAu+QwajIw/JZSyBN9ckIKQBqE36kHtwgkvCGSilQdIPgvIEjn4oY9POk4kRN2D6NlCR6tf/ljqB99cAFpD1mktzeoJ0VlHqyZmjfq9CI1xAUIA3JH9iTvvVP4Qtmrdip4gwgo1nGQ2WRgQRUN0N5zOs3vuNkiUHdHRq9idfhYY="
+    - secure: "kS5Kt5w1eDeFR/nX52K0llkJ8syp3z+d0KB+FHR8xabLKdXehkesP6+pWGiF71Iu6Ks5EhTgCzJ6KPsoee3y1NfOH+xM0+CkMyVgAyU5w1in9RsKaEqNJxN1c8N4C1m/jpnGpDDJYomR5pLiVC2mjhF/bkzqwL2BkxtH3DMvSe8="
+    - secure: "iN1o5Z4+SHRaLju2WiSG4VNgAiYi9ag6LVymjdID52WyGiy6FWMp2LF9yU+J5x8LsmCg/NqJ05FVovxyYa5XtYnys/STjQAKX1Tt7Rq9CGE5hZPPnn3OxKulyhAolyOx4On9hPrjWNpGbvpi55Pgtxqb6e5c6cdp9WNGigY2zCI="
+    - secure: "Oc+BmbCyAt16jbyA7IoHtetavQJMpRDWzM2FmwOsr7251Tq2kQBDz+9w01de51e5kBpbmOClYOBi+azh4F3OK8N/0J4Wg7R4cBEDr+6adaKn370ltNUfqLrtX2ie7y2yJdjQRnqDlmHOdfNs9wvbB+Mxo7IC768e5R/Z6MM8KyM="
+    - secure: "k2VuqgrsoOMjoUCFB0Cv4uRL0qAjbl52ogxhZtv+SJh/q3NUMGBpWcwo1Vc+MH3dj89CMCvTfINS/x/eqmyxDoSCXFd4bEhsclR69BJ/6ujXQ4Cah0eTDKZyvDxcDxr9vM4On0a/Z13R9QUuxhC/LXrIfYN7ke9xWntyVEzS78U="
+    - secure: "SvUPbVM4I72ft5wgiLn7F1jTCHHE+4A0AZDlyYuHoGbFtnlu+gYvNIbQplTIQ3PM6A78cHKBcwiSLe+FT5XXIPIYIbUQ32C0Cbcnu/QMdtFtaQtg2VHP2v5stcFoBK2RtZ74/t+YaWyMVtInZKBubL8qsNf90zOBE8WUWcudLVE="
+    - secure: "n468gTJ6JPw4nAuG86jD0Q/1VcUj89n4qw/4y2EUY6QTY+T2drGpl6tdYUFgFxlt+KWVN6bsUKigYkangKqaFMILRuY/uAiCgWfHiinWh8NAi8XlbdJnl9kVltdWnFZO2fhIw/2EeRrUtQ8EzHS6P7ecRGM04LBCDMS4DFs4fDo="
+  matrix:
+    -
+    - DEPLOY_BRANCH=master
+
+matrix:
+  exclude:
+    - php: 5.5
+      env: DEPLOY_BRANCH=master
 
 before_script: ./scripts/prepare.sh && ./scripts/build.sh
 
 script: ./scripts/test.sh
+
+after_success: ./scripts/package.sh
 
 notifications:
   email:
