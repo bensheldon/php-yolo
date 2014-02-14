@@ -31,14 +31,11 @@ env:
     - secure: "k2VuqgrsoOMjoUCFB0Cv4uRL0qAjbl52ogxhZtv+SJh/q3NUMGBpWcwo1Vc+MH3dj89CMCvTfINS/x/eqmyxDoSCXFd4bEhsclR69BJ/6ujXQ4Cah0eTDKZyvDxcDxr9vM4On0a/Z13R9QUuxhC/LXrIfYN7ke9xWntyVEzS78U="
     - secure: "SvUPbVM4I72ft5wgiLn7F1jTCHHE+4A0AZDlyYuHoGbFtnlu+gYvNIbQplTIQ3PM6A78cHKBcwiSLe+FT5XXIPIYIbUQ32C0Cbcnu/QMdtFtaQtg2VHP2v5stcFoBK2RtZ74/t+YaWyMVtInZKBubL8qsNf90zOBE8WUWcudLVE="
     - secure: "n468gTJ6JPw4nAuG86jD0Q/1VcUj89n4qw/4y2EUY6QTY+T2drGpl6tdYUFgFxlt+KWVN6bsUKigYkangKqaFMILRuY/uAiCgWfHiinWh8NAi8XlbdJnl9kVltdWnFZO2fhIw/2EeRrUtQ8EzHS6P7ecRGM04LBCDMS4DFs4fDo="
-  matrix:
-    -
-    - DEPLOY_BRANCH=master
 
 matrix:
-  exclude:
-    - php: 5.5
-      env: DEPLOY_BRANCH=master
+  include:
+    - php: 5.3
+      env: PACKAGE_BRANCH=master
 
 before_script: ./scripts/prepare.sh && ./scripts/build.sh
 

@@ -7,8 +7,8 @@ if [[ "false" != "$TRAVIS_PULL_REQUEST" ]]; then
   exit
 fi
 
-if [[ "$TRAVIS_BRANCH" != "$DEPLOY_BRANCH" ]]; then
-  echo "Not on the '$DEPLOY_BRANCH' branch."
+if [[ "$TRAVIS_BRANCH" != "$PACKAGE_BRANCH" ]]; then
+  echo "Not on the '$PACKAGE_BRANCH' branch."
   exit
 fi
 
