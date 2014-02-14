@@ -1,0 +1,17 @@
+language: php
+
+php:
+  - 5.3
+  - 5.5
+
+env:
+  global:
+    - YOLO_BIN_DIR=/tmp/yolo-phar
+
+before_script: ./ci/prepare.sh && ./ci/build.sh
+
+script: ./ci/test.sh
+
+notifications:
+  email:
+    on_success: never

@@ -1,4 +1,4 @@
 PHP-YOLO
 ========
 
-`php-yolo me`
+`php-yolo help`
